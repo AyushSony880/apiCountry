@@ -1,0 +1,91 @@
+.country-Details {
+  max-width: 1200px;
+}
+.back-Button {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px, rgba(0, 0, 0, 0.23) 0px 2px 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.country-flag {
+  margin-top: 64px;
+  width: 40%;
+}
+.country-flag img {
+  width: 100%;
+}
+
+.country-textDetails {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.country-text {
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 64px;
+}
+
+.country-text p {
+  margin: 3px;
+}
+
+.border-country {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+
+.border-country a {
+  max-width: 260px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 4px, rgba(0, 0, 0, 0.23) 0px 2px 4px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-inline: 6px;
+}
+
+@media (max-width: 815px) {
+  .country-textDetails {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .country-text {
+    max-height: auto;
+    flex-wrap: nowrap;
+  }
+
+  .border-country {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 100px;
+  }
+
+  .country-flag {
+    width: 90%;
+  }
+  .country-textDetails {
+    gap: 32px;
+  }
+  .navBar h2{
+    font-size: 16px;
+  }
+  .navBar p{
+    font-size: 12px;
+  }
+}
+
+.border-country-name{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.border-country-name a{
+  display:block;
+}
